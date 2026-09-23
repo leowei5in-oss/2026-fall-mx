@@ -1,9 +1,15 @@
 body {
-    background-color: light-dark(aqua,blue);
+    background-color: light-dark(aqua,rgb(105, 151, 194));
     color: light-dark(palevioletred);
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: light-dark(white, black);
+    color:light-dark(white, black);
+}
+
+.center{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
