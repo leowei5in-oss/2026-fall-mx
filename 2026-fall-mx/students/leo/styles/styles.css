@@ -1,5 +1,5 @@
 body {
-    background-color: light-dark(rgb(125, 181, 90),rgb(105, 151, 194));
+    background-color: light-dark(rgb(125, 181, 90),rgb(6, 34, 60));
     color: light-dark(palevioletred);
 }
 
@@ -12,4 +12,17 @@ footer {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#color-chooser{
+    border: 3px solid rgb(29, 139, 161);
+ 
+input {
+    display: none;
+}
+    
+label:has(input:checked ) {
+    color:azure blue;
+    background-color:antiquewhite;
+}
 }
