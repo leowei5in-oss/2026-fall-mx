@@ -1,5 +1,5 @@
 body {
-    background-color: light-dark(aqua,rgb(105, 151, 194));
+    background-color: light-dark(rgb(125, 181, 90),rgb(105, 151, 194));
     color: light-dark(palevioletred);
 }
 
